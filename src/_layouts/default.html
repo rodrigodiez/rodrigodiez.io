@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="container">
-        {{ content }}
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+---
+layout: base
+---
+<section class="col-sm-9 col-sm-push-3">
+    {{ content }}
+</section>
+<aside id="sidebar" class="col-sm-3 col-sm-pull-9">
+    {% include author.html name_header_tag="h2" social_link_header_tag="h3" %}
+</aside>

@@ -1,23 +1,27 @@
 ---
-layout: default
+layout: base
 ---
+<section id="jumbo" class="text-center">
+    {% include author.html name_header_tag="h1" social_link_header_tag="h2" %}
+</section>
 
-<div class="home">
+<section class="col-md-6 col-md-push-6">
+    <h4 class="page-header">About</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dignissimos atque, minus sit officiis non numquam cumque dolorem minima dolores porro, saepe necessitatibus! Necessitatibus, neque delectus rem iure ipsam, quisquam.</p>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
+<section class="col-md-6 col-md-pull-6">
+    <h4 class="page-header">Recent posts</h4>
 
-  <ul class="post-list">
+    <ul class="list-unstyled">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        <li>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            {{ post.excerpt }}
+        </li>
     {% endfor %}
-  </ul>
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</section>

@@ -7,5 +7,22 @@
 @import
     "_variables.scss",
     "highlight.scss",
-    "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss"
+    "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+    "../bower_components/components-font-awesome/scss/font-awesome.scss"
 ;
+
+#jumbo #author .bio {
+    @extend .lead
+}
+
+#sidebar #avatar {
+
+    width: 200px;
+}
+
+#social-links {
+
+    a {
+        color: $text-color;
+    }
+}
