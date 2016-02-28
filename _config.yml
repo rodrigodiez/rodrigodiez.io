@@ -28,6 +28,4 @@ linkedin_username:  rodrigodiezvillamuera
 markdown: kramdown
 
 # Dir structure settings
-source: src
-destination: dist
-exclude: [Gemfile, Gemfile.lock]
+exclude: [Gemfile, Gemfile.lock, bin, bower.json]
