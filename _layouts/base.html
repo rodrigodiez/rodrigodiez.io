@@ -6,8 +6,13 @@
 
     <div class="container">
         {{ content }}
+
+        {% capture footer %}{% include footer.md %}{% endcapture %}
+        {{ footer | markdownify }}
     </div>
 
-    {% include footer.html %}
+
+
+    {% include scripts.html %}
   </body>
 </html>

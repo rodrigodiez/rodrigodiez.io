@@ -11,7 +11,7 @@
     "../bower_components/components-font-awesome/scss/font-awesome.scss"
 ;
 
-#jumbo #author .bio {
+#jumbo #author .bio, #jumbo #author .location {
     @extend .lead
 }
 

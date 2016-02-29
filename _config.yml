@@ -9,9 +9,8 @@
 title: Rodrigo Díez Villamuera
 email: rodrigo@rodrigodiez.io
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I optimize companies' revenue / cost ratio via high quality software,
+  agile methodologies and some good ideas. I run miles too
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
@@ -19,7 +18,8 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 author:
     name: Rodrigo Díez Villamuera
     bio: >
-        Internet builder, long distance runner. Spaniard
+        I optimize companies' revenue / cost ratio via high quality software, agile methodologies and some good ideas. I run miles too
+    location: London, UK
 twitter_username: rodrigodiez_pro
 github_username:  rodrigodiez
 linkedin_username:  rodrigodiezvillamuera
