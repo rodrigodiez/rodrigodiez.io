@@ -11,8 +11,19 @@
     "../bower_components/components-font-awesome/scss/font-awesome.scss"
 ;
 
+body {
+
+    padding-top: 70px;
+}
+
 #jumbo #author .bio, #jumbo #author .location {
+
     @extend .lead
+}
+
+#jumbo #author .bio {
+
+    font-style: italic;
 }
 
 #sidebar #avatar {
@@ -25,4 +36,9 @@
     a {
         color: $text-color;
     }
+}
+
+.skill .skill-logo {
+
+    width: 75px;
 }
