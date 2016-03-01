@@ -16,29 +16,69 @@ body {
     padding-top: 70px;
 }
 
-#jumbo #author .bio, #jumbo #author .location {
 
-    @extend .lead
-}
+.author {
+    .author-avatar {
+        .sidebar & {
+            width: 200px;
+        }
+    }
 
-#jumbo #author .bio {
+    .author-bio {
+        .jumbo & {
+            @extend .lead;
+        }
 
-    font-style: italic;
-}
+        color: $gray;
+        font-style: italic;
+    }
 
-#sidebar #avatar {
+    .author-location {
 
-    width: 200px;
-}
+        color: $gray;
 
-#social-links {
+        .jumbo & {
 
-    a {
-        color: $text-color;
+            font-size: floor(($font-size-base * 1.15));
+            font-weight: 300;
+            line-height: 1.4;
+
+            @media (min-width: $screen-sm-min) {
+              font-size: ($font-size-base * 1.5);
+            }
+        }
+    }
+
+    .author-social-links {
+
+        font-size: floor(($font-size-base * 1.15));
+        font-weight: 300;
+        line-height: 1.4;
+
+        @media (min-width: $screen-sm-min) {
+          font-size: ($font-size-base * 1.5);
+        }
+
+        a {
+            color: $gray;
+        }
     }
 }
 
-.skill .skill-logo {
+.skill {
+    .skill-logo {
 
-    width: 75px;
+        width: 75px;
+    }
+}
+
+.post {
+
+    .post-footer {
+
+        .post-taxonomies {
+
+            color: $gray;
+        }
+    }
 }

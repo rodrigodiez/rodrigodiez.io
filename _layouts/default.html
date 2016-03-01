@@ -1,9 +1,15 @@
 ---
 layout: base
 ---
-<section class="col-sm-9 col-sm-push-3">
-    {{ content }}
-</section>
-<aside id="sidebar" class="col-sm-3 col-sm-pull-9">
-    {% include author.html name_header_tag="h2" social_link_header_tag="h3" %}
-</aside>
+<div class="row">
+    <div class="col-sm-9">
+        <section>
+            {{ content }}
+        </section>
+    </div>
+    <div class="col-sm-3">
+        <aside id="sidebar" >
+            {% include author.html name_header_tag="h3" %}
+        </aside>
+    </div>
+</div>

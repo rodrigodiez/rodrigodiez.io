@@ -1,11 +1,11 @@
-<section id="author">
-    <img id="avatar" class="img-circle" src="{{ "/images/avatar.png" | prepend: site.baseurl }}">
+<section class="author text-center">
+    <img class="author-avatar img-circle" src="{{ "/images/avatar.png" | prepend: site.baseurl }}">
     <{{ include.name_header_tag }}>{{ site.author.name }}</{{ include.name_header_tag }}>
-    <div class="bio">{{ site.author.bio | markdownify }}</div>
-    <p class="location">{{ site.author.location }}</p>
-    <ul id="social-links" class="list-inline">
-        <li><{{ include.social_link_header_tag }}><a href="https://github.com/{{ site.github_username }}" title="{{ site.author.name | append: "'s Github profile" }}" rel="me"><i class="fa fa-github"></i></a></{{ include.social_link_header_tag }}></li>
-        <li><{{ include.social_link_header_tag }}><a href="https://twitter.com/{{ site.twitter_username }}" rel="me" title="{{ site.author.name | append: "'s Twitter profile" }}"><i class="fa fa-twitter"></i></a></{{ include.social_link_header_tag }}></li>
-        <li><{{ include.social_link_header_tag }}><a href="https://uk.linkedin.com/in/{{ site.linkedin_username }}" rel="me" title="{{ site.author.name | append: "'s LinkedIn profile" }}"><i class="fa fa-linkedin"></i></a></{{ include.social_link_header_tag }}></li>
+    <div class="author-bio">{{ site.author.bio | markdownify }}</div>
+    <p class="author-location">{{ site.author.location }}</p>
+    <ul class="author-social-links list-inline">
+        <li><a href="https://github.com/{{ site.github_username }}" title="{{ site.author.name | append: "'s Github profile" }}" rel="me"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/{{ site.twitter_username }}" rel="me" title="{{ site.author.name | append: "'s Twitter profile" }}"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://uk.linkedin.com/in/{{ site.linkedin_username }}" rel="me" title="{{ site.author.name | append: "'s LinkedIn profile" }}"><i class="fa fa-linkedin"></i></a></li>
     </ul>
 </section>

@@ -1,13 +1,21 @@
 ---
 layout: base
 ---
-<section id="jumbo" class="row text-center">
-    {% include author.html name_header_tag="h1" social_link_header_tag="h2" %}
-</section>
+<div class="jumbo text-center">
+    {% include author.html name_header_tag="h1" %}
+</div>
 
 <div class="row">
     <section class="col-md-6 col-md-push-6">
-        <h3 class="page-header">Skills</h3>
+        <h3 class="page-header">About me</h3>
+        <p>I am an agile web developer. I am of the opinion that...</p>
+        <ul class="unordered-list">
+            <li>Software is a value vector</li>
+            <li>The bigger cost of sofware is not coding it but maintaining, evolving and fixing it. Hence I consider <abbr title="Minimum viable product" class="initialism">MVP</abbr>s and software quality a must</li>
+            <li>The more performant way of evolving products and teams is generally by small, incremental, iterative improvements based on retrospective data analysis</li>
+        </ul>
+
+        <h3 class="page-header">Toolset</h3>
         <ul class="list-inline">
             <li class="skill">
                 <a href="https://php.net" title="PHP"><img class="skill-logo img-circle" src="{{ "/images/logos/php_logo.png" | prepend: site.baseurl }}" alt="PHP"></a>
@@ -19,7 +27,6 @@ layout: base
                 <a href="https://phpspec.readthedocs.org/en/latest/" title="phpspec"><img class="skill-logo img-circle" src="{{ "/images/logos/phpspec_logo.png" | prepend: site.baseurl }}"alt="phpspec"></a>
             </li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dignissimos atque, minus sit officiis non numquam cumque dolorem minima dolores porro, saepe necessitatibus! Necessitatibus, neque delectus rem iure ipsam, quisquam.</p>
     </section>
 
     <section class="col-md-6 col-md-pull-6">
