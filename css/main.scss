@@ -16,8 +16,14 @@ body {
     padding-top: 70px;
 }
 
+#header {
+    .header-home-link {
+        font-size: $font-size-large;
+    }
+}
 
 .author {
+
     .author-avatar {
         .sidebar & {
             width: 200px;
@@ -29,13 +35,10 @@ body {
             @extend .lead;
         }
 
-        color: $gray;
         font-style: italic;
     }
 
     .author-location {
-
-        color: $gray;
 
         .jumbo & {
 
@@ -60,7 +63,7 @@ body {
         }
 
         a {
-            color: $gray;
+            color: $headings-color;
         }
     }
 }
@@ -73,12 +76,19 @@ body {
 }
 
 .post {
+    .post-content {
+
+        font-size: $font-size-large;
+
+        h1, h2, h3, h4, h5, h6,
+        .h1, .h2, .h3, .h4, .h5, .h6 {
+
+            color: $text-color;
+        }
+    }
 
     .post-footer {
 
-        .post-taxonomies {
-
-            color: $gray;
-        }
+        font-size: $font-size-large;
     }
 }
