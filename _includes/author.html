@@ -1,5 +1,5 @@
 <section class="author text-center">
-    <img class="author-avatar img-circle" src="{{ "/images/avatar.png" | prepend: site.baseurl }}">
+    <img class="author-avatar img-circle" src="{{ "/images/avatar.png" | prepend: site.baseurl }}" alt="{{ site.author.name }}">
     <{{ include.name_header_tag }} class="author-name">{{ site.author.name }}</{{ include.name_header_tag }}>
     <div class="author-bio">{{ site.author.bio | markdownify }}</div>
     <p class="author-location">{{ site.author.location }}</p>

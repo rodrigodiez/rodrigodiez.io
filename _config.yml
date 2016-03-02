@@ -12,13 +12,13 @@ description: > # this means to ignore newlines until "baseurl:"
   I optimize companies' revenue / cost ratio via high quality software,
   agile methodologies and some good ideas. I run miles too
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://rodrigodiez.github.io" # the base hostname & protocol for your site
 
 # Author settings
 author:
     name: Rodrigo Díez Villamuera
     bio: >
-        I am an agile web developer. I help business' to increase their revenue / cost ratio via high quality software, iterative improvement and some good ideas. I also run miles and [write about it](http://rodrigodiez.github.io)
+        I am an agile web developer. I help business' to increase their revenue / cost ratio via high quality software, iterative improvements and some good ideas
     location: London, UK
 twitter_username: rodrigodiez_pro
 github_username:  rodrigodiez
