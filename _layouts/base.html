@@ -4,14 +4,10 @@
   <body>
     {% include header.html %}
 
-    <div class="container">
-        {{ content }}
+    {{ content }}
 
-        {% capture footer %}{% include footer.md %}{% endcapture %}
-        {{ footer | markdownify }}
-    </div>
-
-
+    {% capture footer %}{% include footer.md %}{% endcapture %}
+    {{ footer | markdownify }}
 
     {% include scripts.html %}
   </body>

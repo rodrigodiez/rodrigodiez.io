@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <div class="container">
+        {{ content }}
+
+        {% capture footer %}{% include footer.md %}{% endcapture %}
+        {{ footer | markdownify }}
+    </div>
+
+
+
+    {% include scripts.html %}
+  </body>
+</html>
