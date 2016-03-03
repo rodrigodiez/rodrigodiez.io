@@ -9,8 +9,8 @@ layout: default
     <div class="post-content">
         {{ content }}
     </div>
-    <hr>
     {% if page.categories.size > 0 or page.tags.size > 0 %}
+    <hr>
     <footer class="post-footer">
         <ul class="post-taxonomies list-inline">
             {% for category in page.categories %}
