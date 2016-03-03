@@ -17,4 +17,6 @@ Is the frequency and the quality of posts what makes a blog worthy. It's winning
 
 Hence, I will not write about what this blog is going to be, because I don't know that yet.
 
-My name is Rodrigo Díez Villamuera. I am an agile developer and this post is my <abbr title="Minimum viable product" class="initialism">MVP</abbr>
+My name is Rodrigo Díez Villamuera. I am an agile developer. I wanted to create a blog where I could practice my English and improve my professional profile on internet.
+
+This post is has been my <abbr title="Minimum viable product" class="initialism">MVP</abbr> :)
