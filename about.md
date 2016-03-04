@@ -5,7 +5,7 @@ permalink: /about-me
 ---
 I consider myself a full stack developer. I can produce high quality, test driven solutions on all client, server, service, data and infrastructure layers.
 
-I worked for startups and for +500.000 daily visits sites. I learned from skilled workmates and I also leaded teams of awesome developers. I even ran my own company, learning valuable lessons along the way.
+I worked for startups and for +500.000 daily visits companies. I learned from skilled workmates and I also leaded teams of awesome developers. I even ran my own company, learning valuable lessons along the way.
 
 I am of the opinion that...
 
