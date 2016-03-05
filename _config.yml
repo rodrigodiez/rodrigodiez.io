@@ -16,7 +16,7 @@ url: "https://rodrigodiez.github.io" # the base hostname & protocol for your sit
 
 # Post settings
 excerpt_separator: <!--more-->
-permalink: pretty
+permalink: /posts/:year/:month/:day/:title/
 
 # Author settings
 author:
