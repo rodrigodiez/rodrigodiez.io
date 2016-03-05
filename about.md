@@ -28,7 +28,7 @@ I am of the opinion that...
             <li><span class="label label-success">PHP</span></li>
             <li><span class="label label-success">Javascript</span></li>
             <li><span class="label label-info">Ruby</span></li>
-            <li><span class="label label-info">Python</span></li>
+            <li><span class="label label-warning">Python</span></li>
             <li><span class="label label-warning">Golang</span></li>
         </ul>
 
@@ -39,7 +39,13 @@ I am of the opinion that...
             <li><span class="label label-success">PHPUnit</span></li>
             <li><span class="label label-success">Cucumber</span></li>
             <li><span class="label label-success">Jasmine</span></li>
-            <li><span class="label label-info">Behat</span></li>
+        </ul>
+
+        <h3>Data</h3>
+        <ul class="list-inline">
+            <li><span class="label label-success">MySQL</span></li>
+            <li><span class="label label-success">Redis</span></li>
+            <li><span class="label label-info">MongoDB</span></li>
         </ul>
     </div>
 
@@ -57,6 +63,14 @@ I am of the opinion that...
             <li><span class="label label-success">Amazon Web Services</span></li>
             <li><span class="label label-success">Puppet</span></li>
             <li><span class="label label-info">Chef</span></li>
+        </ul>
+
+        <h3>More...</h3>
+        <ul class="list-inline">
+            <li><span class="label label-success">Git</span></li>
+            <li><span class="label label-success">NodeJS</span></li>
+            <li><span class="label label-success">Grunt</span></li>
+            <li><span class="label label-success">Gulp</span></li>
         </ul>
     </div>
 </div>
