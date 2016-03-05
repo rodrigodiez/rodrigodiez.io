@@ -19,9 +19,7 @@ I am of the opinion that...
 - Software is more expensive to evolve and to fix than to code. Hence, for a business is cheaper adhere to MVPs and high quality software than fat releases of low quality components
 
 ---
-
-<p class="lead text-center">I <i class="fa fa-heart fa-lg text-danger"></i> <abbr title="Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion">SOLID</abbr></p>
-
+<p class="lead text-center">I <i class="fa fa-thumbs-o-up fa-lg text-primary"></i> agile</p>
 ---
 
 ## Skills
@@ -82,7 +80,7 @@ I am of the opinion that...
     </div>
 </section>
 ---
-<p class="lead text-center">I <i class="fa fa-thumbs-o-up fa-lg text-primary"></i> agile</p>
+<p class="lead text-center">I <i class="fa fa-heart fa-lg text-danger"></i> <abbr title="Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion">SOLID</abbr></p>
 ---
 
 ## Companies I have worked in
