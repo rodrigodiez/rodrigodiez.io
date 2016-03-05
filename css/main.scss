@@ -13,20 +13,23 @@
 
 body {
 
+    overflow-y: scroll;
     padding-top: 90px;
 }
 
 #header {
     .header-home-link {
-        font-size: $font-size-large;
+        img {
+            width: 20px;
+        }
     }
 }
 
 .author {
 
     .author-avatar {
-        .sidebar & {
-            width: 200px;
+        #sidebar & {
+            width: 150px;
         }
     }
 
@@ -54,41 +57,16 @@ body {
 
     .author-social-links {
 
-        font-size: floor(($font-size-base * 1.15));
-        font-weight: 300;
-        line-height: 1.4;
-
-        @media (min-width: $screen-sm-min) {
-          font-size: ($font-size-base * 1.5);
-        }
+        // font-size: floor(($font-size-base * 1.15));
+        // font-weight: 300;
+        // line-height: 1.4;
+        //
+        // @media (min-width: $screen-sm-min) {
+        //   font-size: ($font-size-base * 1.5);
+        // }
 
         a {
             color: $headings-color;
         }
-    }
-}
-
-.skill {
-    .skill-logo {
-
-        width: 75px;
-    }
-}
-
-.post {
-    .post-content {
-
-        font-size: $font-size-large;
-
-        h1, h2, h3, h4, h5, h6,
-        .h1, .h2, .h3, .h4, .h5, .h6 {
-
-            color: $text-color;
-        }
-    }
-
-    .post-footer {
-
-        font-size: $font-size-large;
     }
 }
