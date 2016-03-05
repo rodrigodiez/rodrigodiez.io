@@ -9,9 +9,7 @@ There are many ways of saying it:
 - *alea jacta est*
 - *first commit*
 
-But the important stuff always comes later. Actions speak louder than words.
-
-<!--more-->
+But the important stuff always comes later. Actions speak louder than words<!--more-->.
 
 Is the frequency and the quality of posts what makes a blog worthy. It's winning a civil war, not just having an army, what makes someone *dictator perpetus*. It is the business problems that a code base solves, the easy that it is to extend and fix, what makes it valuable.
 
