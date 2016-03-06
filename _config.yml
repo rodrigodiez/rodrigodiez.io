@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   I optimize companies' revenue / cost ratio via high quality software,
   agile methodologies and some good ideas. I run miles too
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rodrigodiez.github.io" # the base hostname & protocol for your site
+url: "http://rodrigodiez.io" # the base hostname & protocol for your site
 
 # Post settings
 excerpt_separator: <!--more-->
