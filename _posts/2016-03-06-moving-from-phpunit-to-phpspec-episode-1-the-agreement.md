@@ -13,18 +13,17 @@ We really **like** our `PHPUnit` / `Mockery` test suite.
 
 However, as we gained more experience with `phpspec` (and its mocking framework [prophecy]) in our personal life, we started to miss some things on Mondays when we came back to our classic setup. Specially from a TDD and _tests_as_documentation_ perspective (more of this on further posts).
 
-We wanted to give `phpspec` a try in our stack, but using new tools in business projects is different than doing it in short lived, personal ones. A justification in terms of cost and value would be required if we wanted to start using a new tool.
+We wanted to give `phpspec` a try, but introducing a new dependency in a business project is different than doing it in short lived, personal ones. A justification in terms of cost and value would be required.
 
 On the other hand one not simply shields a project against evolution and expects that project to succeed in a fast paced changing environment as internet.
 
 A team of professional developers committed with the success of their business must keep the balance between the two worlds.
 
-After discussing for a while we agreed to use `phpspec` in the next planned feature, from dev environment to CI, so we could better evaluate what the real value and cost would be.
+After discussing for a while we agreed we'd use `phpspec` in the next planned feature, from dev environment to CI, so we could better evaluate pros and cons.
 
-Thankfully, because of our agile process our releases are quite small. So we accepted the price of moving that feature's tests back to `PHPUnit` if we decided it that moving to `phpspec` wasn't worth it.
+Thankfully, because of our agile process, our releases are quite small. So we accepted we'd refactor that feature's tests using `PHPUnit` if we decided it that moving to `phpspec` wasn't worth it.
 
 That release is already out. In the next two posts I'm going to write about our conclusions regarding value and cost.
-
 
 [phpspec]: http://phpspec.readthedocs.org/en/latest/
 [prophecy]: https://github.com/phpspec/prophecy
