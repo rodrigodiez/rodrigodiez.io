@@ -7,6 +7,7 @@ layout: container-base
 </div>
 
 ## About
+{: .page-header}
 
 I consider myself a full stack developer. I can produce high quality, test driven solutions on all client, server, service, data and infrastructure layers.
 
@@ -20,9 +21,9 @@ I am of the opinion that...
 
 ---
 <p class="lead text-center">I <i class="fa fa-thumbs-o-up fa-lg text-primary"></i> agile</p>
----
 
 ## Skills
+{: .page-header}
 
 <section>
     <div class="row">
@@ -81,9 +82,9 @@ I am of the opinion that...
 </section>
 ---
 <p class="lead text-center">I <i class="fa fa-heart fa-lg text-danger"></i> <abbr title="Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion">SOLID</abbr></p>
----
 
 ## Companies I have worked in
+{: .page-header}
 
 <section id="workHistory">
     <div class="row">
