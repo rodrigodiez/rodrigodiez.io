@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Blog"
-permalink: /blog
+permalink: /blog.html
 ---
 
 <h3 class="page-header">Recent posts</h3>
