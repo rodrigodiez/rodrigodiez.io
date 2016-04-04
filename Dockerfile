@@ -8,6 +8,6 @@ RUN bundle install
 RUN bundle exec jekyll build
 
 RUN mkdir -p /usr/share/nginx/html
-COPY _site /usr/share/nginx/html
+RUN cp -R _site /usr/share/nginx/html
 
 VOLUME /usr/share/nginx/html
