@@ -9,9 +9,9 @@ layout: container-base
 ## About
 {: .page-header}
 
-I consider myself a full stack developer. I can produce high quality, test driven solutions on all client, server, service, data and infrastructure layers.
+I am a full stack web engineer. I produce high quality, test driven, maintainable software and infrastructure solutions.
 
-I worked for small startups and for +500.000 daily visits companies. I learned from skilled workmates and I also managed teams of talented developers. I even ran my own company, learning valuable lessons along the way.
+I have years of experience helping businesses, from small innovative startups to +10 million users companies. I have learned from skilled workmates and I have also managed teams of talented developers. I even started my own company learning a lot along the way.
 
 I am of the opinion that...
 
