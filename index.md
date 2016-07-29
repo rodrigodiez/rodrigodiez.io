@@ -15,7 +15,7 @@ I have years of experience helping businesses, from small innovative startups to
 
 I am of the opinion that...
 
-- Software is just another value vector
+- Software is just a value vector
 - The more performant way of evolving products and teams is generally by making small, incremental, iterative improvements based on the retrospective analysis of data
 - Software is more expensive to evolve and to fix than to code. Hence, for a business is cheaper adhere to MVPs and high quality software than fat releases of low quality components
 
