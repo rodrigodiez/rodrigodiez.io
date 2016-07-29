@@ -4,5 +4,5 @@ rodrigodiez-io-web:
     - 'VIRTUAL_HOST=rodrigodiez.io, www.rodrigodiez.io'
   expose:
     - '80'
-  image: 'nginx:latest'
+  image: 'rodrigodiez/rodrigodiez.io'
   restart: always
