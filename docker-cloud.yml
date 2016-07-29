@@ -1,0 +1,8 @@
+rodrigodiez-io-web:
+  environment:
+    - 'EXTRA_SETTINGS=redirect prefix http://rodrigodiez.io code 301 if { hdr(host) -i www.rodrigodiez.io }'
+    - 'VIRTUAL_HOST=rodrigodiez.io, www.rodrigodiez.io'
+  expose:
+    - '80'
+  image: 'nginx:latest'
+  restart: always

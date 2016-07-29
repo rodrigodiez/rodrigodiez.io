@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rodrigo Díez Villamuera</title>
+    <description>I optimize companies&#39; revenue / cost ratio via high quality software, agile methodologies and some good ideas. I run miles too
+</description>
+    <link>http://rodrigodiez.io/</link>
+    <atom:link href="http://rodrigodiez.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 29 Jul 2016 11:00:37 +0100</pubDate>
+    <lastBuildDate>Fri, 29 Jul 2016 11:00:37 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Moving from PHPUnit to phpspec. Episode 1: The agreement</title>
+        <description>&lt;p&gt;I’ve been using &lt;a href=&quot;http://phpspec.readthedocs.org/en/latest/&quot;&gt;phpspec&lt;/a&gt; in my personal projects for couple of years now. Back then I wasn’t test-driving my code yet (:ashamed:) so it was an easy choice. I just picked the tool that everybody was referencing in their blogs and talks&lt;!--more--&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the team where I currently work we use &lt;a href=&quot;https://phpunit.de/&quot;&gt;PHPUnit&lt;/a&gt; spiced with &lt;a href=&quot;https://github.com/padraic/mockery&quot;&gt;Mockery&lt;/a&gt;. The project that we maintain more often was started a couple of years before the current team members joined and, back then, somebody chose &lt;code class=&quot;highlighter-rouge&quot;&gt;PHPUnit&lt;/code&gt;. It was probably the right decision to make at that point.&lt;/p&gt;
+
+&lt;p&gt;Comes without saying that these test are a valuable resource for us. They allow us to &lt;abbr title=&quot;Test Driven Development&quot;&gt;TDD&lt;/abbr&gt; on a daily basis with no major issue and, over the years, they have become an outstanding regression suite.&lt;/p&gt;
+
+&lt;p&gt;We really &lt;strong&gt;like&lt;/strong&gt; our &lt;code class=&quot;highlighter-rouge&quot;&gt;PHPUnit&lt;/code&gt; / &lt;code class=&quot;highlighter-rouge&quot;&gt;Mockery&lt;/code&gt; test suite.&lt;/p&gt;
+
+&lt;p&gt;However, as we gained more experience with &lt;code class=&quot;highlighter-rouge&quot;&gt;phpspec&lt;/code&gt; (and its mocking framework &lt;a href=&quot;https://github.com/phpspec/prophecy&quot;&gt;prophecy&lt;/a&gt;) in our personal life, we started to miss some things on Mondays when we came back to our classic setup. Specially from a &lt;abbr title=&quot;Test Driven Development&quot;&gt;TDD&lt;/abbr&gt; and &lt;em&gt;tests_as_documentation&lt;/em&gt; perspective (more of this on further posts).&lt;/p&gt;
+
+&lt;p&gt;We wanted to give &lt;code class=&quot;highlighter-rouge&quot;&gt;phpspec&lt;/code&gt; a try, but introducing a new dependency in a business project is different than doing it in short lived, personal ones. A justification in terms of cost and value would be required.&lt;/p&gt;
+
+&lt;p&gt;On the other hand one not simply shields a project against evolution and expects that project to succeed in a fast paced changing environment as internet.&lt;/p&gt;
+
+&lt;p&gt;A team of professional developers committed with the success of their business must keep the balance between the two worlds.&lt;/p&gt;
+
+&lt;p&gt;After discussing for a while we agreed we’d use &lt;code class=&quot;highlighter-rouge&quot;&gt;phpspec&lt;/code&gt; in the next planned feature, from dev environment to &lt;abbr title=&quot;Continous Integration&quot;&gt;CI&lt;/abbr&gt;, so we could better evaluate pros and cons.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, because of our agile process, our releases are quite small. So we accepted we’d refactor that feature’s tests using &lt;code class=&quot;highlighter-rouge&quot;&gt;PHPUnit&lt;/code&gt; if we decided it that moving to &lt;code class=&quot;highlighter-rouge&quot;&gt;phpspec&lt;/code&gt; wasn’t worth it.&lt;/p&gt;
+
+&lt;p&gt;That release is already out. In the next two posts I’m going to write about our conclusions regarding value and cost.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
+        <link>http://rodrigodiez.io/posts/2016/03/06/moving-from-phpunit-to-phpspec-episode-1-the-agreement/</link>
+        <guid isPermaLink="true">http://rodrigodiez.io/posts/2016/03/06/moving-from-phpunit-to-phpspec-episode-1-the-agreement/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello, World!</title>
+        <description>&lt;p&gt;There are many ways of saying it:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;hello world&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;alea jacta est&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;first commit&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But the important stuff always comes later. Actions speak louder than words&lt;!--more--&gt;.&lt;/p&gt;
+
+&lt;p&gt;Is the frequency and the quality of posts what makes a blog worthy. It’s winning a civil war, not just having an army, what makes someone &lt;em&gt;dictator perpetus&lt;/em&gt;. It is the business problems that a code base solves, the easy that it is to extend and fix, what makes it valuable.&lt;/p&gt;
+
+&lt;p&gt;Hence, I will not write about what this blog is going to be, because I don’t know that yet.&lt;/p&gt;
+
+&lt;p&gt;My name is Rodrigo Díez Villamuera. I am an agile developer. I wanted to create a blog where I could practice my English and improve my professional profile on internet.&lt;/p&gt;
+
+&lt;p&gt;This post is has been my &lt;abbr title=&quot;Minimum viable product&quot; class=&quot;initialism&quot;&gt;MVP&lt;/abbr&gt; :)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Mar 2016 00:00:00 +0000</pubDate>
+        <link>http://rodrigodiez.io/posts/2016/03/02/hello-world/</link>
+        <guid isPermaLink="true">http://rodrigodiez.io/posts/2016/03/02/hello-world/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

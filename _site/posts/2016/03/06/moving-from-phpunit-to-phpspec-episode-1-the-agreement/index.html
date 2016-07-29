@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Moving from PHPUnit to phpspec. Episode 1: The agreement</title>
+  <meta name="description" content="I’ve been using phpspec in my personal projects for couple of years now. Back then I wasn’t test-driving my code yet (:ashamed:) so it was an easy choice. I ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://rodrigodiez.io/posts/2016/03/06/moving-from-phpunit-to-phpspec-episode-1-the-agreement/">
+  <link rel="alternate" type="application/rss+xml" title="Rodrigo Díez Villamuera" href="http://rodrigodiez.io/feed.xml">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+  <body>
+    <header id="header">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="header-home-link navbar-brand" href="/" title="Homepage"><img src="/images/favicon.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                
+                
+                    <li class=""><a href="/blog.html">Blog</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+    <div class="container">
+        <div class="row">
+    <div class="col-sm-9">
+        <section>
+            <article class="post">
+    <header>
+        <p><time datetime="2016-03-06T00:00:00+00:00">Mar 6, 2016</time></p>
+        <h1 class="page-header">Moving from PHPUnit to phpspec. Episode 1: The agreement</h1>
+    </header>
+    <div class="post-content">
+        <p>I’ve been using <a href="http://phpspec.readthedocs.org/en/latest/">phpspec</a> in my personal projects for couple of years now. Back then I wasn’t test-driving my code yet (:ashamed:) so it was an easy choice. I just picked the tool that everybody was referencing in their blogs and talks<!--more-->.</p>
+
+<p>In the team where I currently work we use <a href="https://phpunit.de/">PHPUnit</a> spiced with <a href="https://github.com/padraic/mockery">Mockery</a>. The project that we maintain more often was started a couple of years before the current team members joined and, back then, somebody chose <code class="highlighter-rouge">PHPUnit</code>. It was probably the right decision to make at that point.</p>
+
+<p>Comes without saying that these test are a valuable resource for us. They allow us to <abbr title="Test Driven Development">TDD</abbr> on a daily basis with no major issue and, over the years, they have become an outstanding regression suite.</p>
+
+<p>We really <strong>like</strong> our <code class="highlighter-rouge">PHPUnit</code> / <code class="highlighter-rouge">Mockery</code> test suite.</p>
+
+<p>However, as we gained more experience with <code class="highlighter-rouge">phpspec</code> (and its mocking framework <a href="https://github.com/phpspec/prophecy">prophecy</a>) in our personal life, we started to miss some things on Mondays when we came back to our classic setup. Specially from a <abbr title="Test Driven Development">TDD</abbr> and <em>tests_as_documentation</em> perspective (more of this on further posts).</p>
+
+<p>We wanted to give <code class="highlighter-rouge">phpspec</code> a try, but introducing a new dependency in a business project is different than doing it in short lived, personal ones. A justification in terms of cost and value would be required.</p>
+
+<p>On the other hand one not simply shields a project against evolution and expects that project to succeed in a fast paced changing environment as internet.</p>
+
+<p>A team of professional developers committed with the success of their business must keep the balance between the two worlds.</p>
+
+<p>After discussing for a while we agreed we’d use <code class="highlighter-rouge">phpspec</code> in the next planned feature, from dev environment to <abbr title="Continous Integration">CI</abbr>, so we could better evaluate pros and cons.</p>
+
+<p>Thankfully, because of our agile process, our releases are quite small. So we accepted we’d refactor that feature’s tests using <code class="highlighter-rouge">PHPUnit</code> if we decided it that moving to <code class="highlighter-rouge">phpspec</code> wasn’t worth it.</p>
+
+<p>That release is already out. In the next two posts I’m going to write about our conclusions regarding value and cost.</p>
+
+
+    </div>
+    
+</article>
+<hr>
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+    this.page.url = 'http://rodrigodiez.io/posts/2016/03/06/moving-from-phpunit-to-phpspec-episode-1-the-agreement/'; // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'http://rodrigodiez.io/posts/2016/03/06/moving-from-phpunit-to-phpspec-episode-1-the-agreement'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//rodrigodiez.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+        </section>
+    </div>
+    <div class="col-sm-3">
+        <aside id="sidebar" >
+            <section class="author text-center">
+    <img class="author-avatar img-circle" src="/images/avatar.png" alt="Rodrigo Díez Villamuera">
+    <h3 class="author-name">Rodrigo Díez Villamuera</h3>
+    <div class="author-bio"><p>I am an agile web developer. I help business’ to increase their revenue / cost ratio via high quality software, iterative improvements and some good ideas</p>
+</div>
+    <p class="author-location">London, UK</p>
+    <ul class="author-social-links list-inline">
+        <li><a href="https://github.com/rodrigodiez" title="Rodrigo Díez Villamuera's Github profile" rel="me"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://twitter.com/rodrigodiez_pro" rel="me" title="Rodrigo Díez Villamuera's Twitter profile"><i class="fa fa-twitter fa-2x"></i></a></li>
+        <li><a href="https://uk.linkedin.com/in/rodrigodiezvillamuera" rel="me" title="Rodrigo Díez Villamuera's LinkedIn profile"><i class="fa fa-linkedin fa-2x"></i></a></li>
+    </ul>
+</section>
+
+        </aside>
+    </div>
+</div>
+
+
+        
+        <hr />
+<p class="text-center">Powered by <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://pages.github.com">Github Pages</a> and <a href="https://getbootstrap.com">Bootstrap</a></p>
+<p class="text-center">subscribe <a href="/feed.xml">via RSS</a></p>
+
+    </div>
+
+
+
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
+
+
+  </body>
+</html>
