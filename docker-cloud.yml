@@ -6,3 +6,4 @@ rodrigodiez-io-web:
     - '80'
   image: 'rodrigodiez/rodrigodiez.io'
   restart: always
+  autoredeploy: true
