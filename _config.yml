@@ -32,4 +32,4 @@ linkedin_username:  rodrigodiezvillamuera
 markdown: kramdown
 
 # Dir structure settings
-exclude: [Gemfile, Gemfile.lock, bin, bower.json]
+exclude: [Gemfile, Gemfile.lock, bin, bower.json, Rakefile, docker-cloud.yml]
