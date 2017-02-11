@@ -1,0 +1,33 @@
+{
+  "name": "rodrigodiez.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigodiez/rodrigodiez.io.git"
+  },
+  "author": "Rodrigo Díez Villamuera <rodrigo@rodrigodiez.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigodiez/rodrigodiez.io/issues"
+  },
+  "homepage": "https://github.com/rodrigodiez/rodrigodiez.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
