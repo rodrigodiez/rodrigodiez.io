@@ -18,6 +18,15 @@ module.exports = {
             }, {
                 loader: "sass-loader" // compiles Sass to CSS
             }]
+        }, {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: [{
+                loader: "babel-loader",
+                query: {
+                    presets: ['react','es2015']
+                }
+            }]
         }]
     },
     plugins: [
