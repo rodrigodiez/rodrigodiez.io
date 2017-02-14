@@ -13,7 +13,7 @@ ReactDOM.render(
         <Author
           name="Rodrigo Díez"
           avatar={avatarUrl}
-          bio="Fullstack developer. Jack of all trades, master of none"
+          bio="Fullstack developer. Long distance runner. Jack of all trades, master of none"
         />
       </div>
       <div className="col-md-8">
