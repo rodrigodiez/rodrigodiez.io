@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -30,20 +31,34 @@ module.exports = {
         }, {
             test: /\.(eot|svg|ttf|woff|woff2)$/,
             use: [{
-                loader: 'file-loader'
+                loader: 'file-loader',
+                query: {
+                    outputPath: 'fonts/',
+                    publicPath: 'fonts/'
+                }
+            }]
+        }, {
+            test: /\.(jpg)$/,
+            use: [{
+                loader: 'file-loader',
+                query: {
+                    outputPath: 'img/',
+                    publicPath: 'img/'
+                }
             }]
         }]
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'public/index.html')
+            template: path.resolve(__dirname, 'assets/templates/index.html')
         }),
         new webpack.ProvidePlugin({
             jQuery: 'jquery',
             $: 'jquery',
             jquery: 'jquery',
             Tether: 'tether',
-        })
+        }),
+        new CleanWebpackPlugin(['dist'])
     ],
     devServer: {
         contentBase: path.join(__dirname, "dist"),

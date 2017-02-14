@@ -1,7 +1,13 @@
-.author {
-  overflow: hidden;
+@import '~bootstrap/scss/bootstrap.scss';
 
-  .avatar {
-    width: 100%;
-  }
+.author {
+    overflow: hidden;
+
+    .avatar {
+        width: 50%;
+
+        @include media-breakpoint-up(md) {
+          width: 100%;
+        }
+    }
 }
