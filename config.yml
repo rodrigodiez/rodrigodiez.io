@@ -3,6 +3,28 @@ languageCode: en-gb
 title: "Rodrigo Diez"
 theme: github.com/adityatelange/hugo-PaperMod
 
+params:
+    profileMode:
+        enabled: true
+        title: "Rodrigo Diez" # optional default will be site title
+        subtitle: "Software Engineer / Solutions Architect"
+        imageUrl: "/avatar.jpg" # optional
+        imageTitle: "Rodrigo Diez" # optional
+        # imageWidth: 120 # custom size
+        # imageHeight: 120 # custom size
+        buttons:
+            - name: Resume
+              url: "/rodrigo-diez-resume.pdf"
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/rodrigodiez"
+        - name: "email"
+          url: "mailto:rodrigo@rodrigodiez.io"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/rodrigodiezvillamuera/"
+    #    - name: "<platform 2>"
+    #      url: "<link2>"
+
 module:
   imports:
   - path: github.com/adityatelange/hugo-PaperMod
