@@ -4,6 +4,9 @@ title: "Rodrigo Diez"
 theme: github.com/adityatelange/hugo-PaperMod
 
 params:
+    author: "Rodrigo Diez"
+    keywords: ["Rodrigo Diez", "software engineer", "solutions architect", "contractor", "go", "golang", "gRPC", "kafka", "kubernetes", "k8s", "distributed systems"]
+    description: "Software Engineer and Solutions Architect with a strong entrepreneurial and leadership background bringing 15 years of experience in multiple problem and solution spaces across industries such as Defence, Music and Education. Proficient with Cloud Native stacks, specially those involving Go, gRPC, Kafka and Kubernetes, as well as experienced in the development of Distributed Services with strict Availability and Latency requirements."
     profileMode:
         enabled: true
         title: "Rodrigo Diez" # optional default will be site title
